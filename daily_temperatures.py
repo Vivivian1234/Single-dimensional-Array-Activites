@@ -25,7 +25,7 @@ print("Highest temperature:", highest_temperature)
 mean_of_temperatures = np.mean(seven_day_temperatures)
 print("Mean of temperatures:", mean_of_temperatures)
 
-answer= int(input("\nWhat would you like to do?\1. Change all temperatures\n2. Quit"))
+answer= int(input("\nWhat would you like to do? \n1. Change all temperatures \n2. Quit\n"))
 
 if answer == 1:
     print("Input new temperatures:\n")
